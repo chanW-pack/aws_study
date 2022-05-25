@@ -4,9 +4,9 @@
 ## Week 1
 
 - [AWS 가상 머신 시작](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/Linux%20%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%20%EC%8B%9C%EC%9E%91.md)
-- 리전 설정, 인스턴스 네임/태그 생성, OS 이미지 지정, 인스턴스 유형 설정, 키 페어 생성, 네트워크 설정, 스토리지 구성 등 
+  - 리전 설정, 인스턴스 네임/태그 생성, OS 이미지 지정, 인스턴스 유형 설정, 키 페어 생성, 네트워크 설정, 스토리지 구성 등 
 - [Amazon EC2와 Amazon Lightsail의 차이점](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/Amazon%20EC2%EC%99%80%20Amazon%20Lightsail%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md) 
-  - $10 청구서 비용 초과 알림 설정
+  - 성능, 편의성, 확장성, 요금 등 주요 차이점
 - [네트워크 구축](https://github.com/khyup0629/aws-study/blob/main/week_1/%EC%9B%B9%EC%84%9C%EB%B2%84_%EB%A7%8C%EB%93%A4%EA%B8%B0.md#%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%B6%95---vpc-%EC%84%9C%EB%B8%8C%EB%84%B7-%EC%9D%B8%ED%84%B0%EB%84%B7-%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4-%EB%9D%BC%EC%9A%B0%ED%8C%85-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%83%9D%EC%84%B1)
   - VPC, 서브넷, 인터넷 게이트웨이, 라우팅 테이블 생성 및 설정
 - [EC2 웹서버 만들기](https://github.com/khyup0629/aws-study/blob/main/week_1/%EC%9B%B9%EC%84%9C%EB%B2%84_%EB%A7%8C%EB%93%A4%EA%B8%B0.md#ec2-%EC%9B%B9%EC%84%9C%EB%B2%84-%EC%83%9D%EC%84%B1) 

@@ -16,9 +16,9 @@ EC2 인스턴스는 소규모 내지 복잡한 아키텍처에 적합하다.
 
  
 
-![Untitled](Untitled%2017.png)
+![Untitled 17](https://user-images.githubusercontent.com/84123877/170216771-9ca7e969-bffa-4237-b972-25910990f773.png)
 
-![Untitled](Untitled%2018.png)
+![Untitled 18](https://user-images.githubusercontent.com/84123877/170216774-a32d717f-8592-4325-b243-bcebae42e29b.png)
 
 ## EC2
 
@@ -49,7 +49,7 @@ EC2는 단순히 가성 서버를 한 대 생성하는 것 뿐이지만,
 
 Lightsail은 생성하기 전에 아래 사진처럼 자신이 사용하고 싶은 서비스를 미리 선택하여 그 서비스가 셋팅된 서버를 생성할 수 있다.
 
-![Untitled](Untitled%2019.png)
+![Untitled 19](https://user-images.githubusercontent.com/84123877/170216779-a4dad30b-5ac5-4dd7-9e27-bbfa41652c67.png)
 
 > AWS Lightsail 인스턴스 생성 화면
 > 
@@ -62,7 +62,7 @@ Lightsail은 생성하기 전에 아래 사진처럼 자신이 사용하고 싶�
 
 다음은 Lightsail의 가격표다.
 
-![Untitled](Untitled%2020.png)
+![Untitled 20](https://user-images.githubusercontent.com/84123877/170216781-d1868e75-12a7-4527-9078-458cc3c45338.png)
 
 > AWS Lightsail의 가격표
 > 

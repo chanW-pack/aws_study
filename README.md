@@ -10,7 +10,7 @@
 - [Amazon Linux 인스턴스에서 사용자 계정 관리](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/3_%20Amazon%20Linux%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%97%90%EC%84%9C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B3%84%EC%A0%95%20%EA%B4%80%EB%A6%AC.md)
   - 각 Linux 인스턴스 기본 사용자
 - [Linux 기본 개념](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/4_%20AWS%20%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90.md) 
-  - 리전, 가용영역, 
+  - 리전, 가용영역, 엣지 로케이션
 - [추가 기능 설정](https://github.com/khyup0629/aws-study/blob/main/week_1/%EC%9B%B9%EC%84%9C%EB%B2%84_%EB%A7%8C%EB%93%A4%EA%B8%B0.md#ec2-%EC%B6%94%EA%B0%80-%EA%B4%80%EB%A6%AC-%EA%B8%B0%EB%8A%A5) 
   - 탄력적 IP 할당
   - 서버 백업(AMI, 스냅샷)

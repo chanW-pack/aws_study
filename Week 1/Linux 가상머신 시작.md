@@ -23,7 +23,7 @@ aws 홈페이지에 아마존 튜토리얼 페이지 (실습 자습서) 가 있�
 
 ### Amazon EC2와 Amazon Lightsail의 차이점
 
-[Amazon EC2와 Amazon Lightsail의 차이점](Amazon%20EC2%E1%84%8B%E1%85%AA%20Amazon%20Lightsail%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%A5%E1%86%B7%2088e85228d47c4a5f8a3a03be61163162.md)
+[Amazon EC2와 Amazon Lightsail의 차이점]([Amazon%20EC2%E1%84%8B%E1%85%AA%20Amazon%20Lightsail%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%A5%E1%86%B7%2088e85228d47c4a5f8a3a03be61163162.md](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/Amazon%20EC2%EC%99%80%20Amazon%20Lightsail%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md))
 
 ---
 

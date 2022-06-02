@@ -50,18 +50,18 @@ EC2 인스턴스를 생성할 때 기본적으로 OS가 설치된 EBS 볼륨을 
 
 ---
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/171626752-e68d3ef9-79fd-4697-81c1-6ed2dd35f0d5.png)
 
 > AWS 콘솔의 EC2 페이지에서 왼쪽 ELASTIC BLOCK STORE → Volumes 선택
 > 
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/171626723-d8d316d7-3b3a-41e5-a693-ab22f1b98b04.png)
 
 > 현재 생성된 EBS 볼륨의 목록이 표시된다. 
 우측 상단 Create Volume 버튼을 클릭힌다.
 > 
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/171626730-8e6359a8-36fc-4aa4-8a13-641ef798a409.png)
 
 > EBS 볼륨을 생성한다.
 > 
@@ -75,19 +75,19 @@ Type을 provisionend IOPS로 선택하야 이 값을 설정할 수 있다.
 - Snapshot ID : 생성해놓은 EBS 스냅샷이 있다면 여기서 선택할 수 있다.
 - Encryption : 볼륨 암호화 옵션이다.
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/171626731-d28659ac-8288-4a6c-8689-ef540c3d1857.png)
 
 > EBS 볼륨 목록에 10GIB 용량의 EBS 볼륨이 생성된것을 확인할 수 있다.
 > 
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/171626734-1a5aee61-1250-479b-8764-55e15dd8746a.png)
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/171626737-89ffa93c-6085-4d69-85cc-e493920cdbe5.png)
 
 > 이후 볼륨 상태가 준비완료가 되었다면 우클릭 후 볼륨 연결로 EC2에 연결한다.
 > 
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/171626739-e8045aa0-dd86-4f87-9f44-b29d1a684767.png)
 
 > 하단 /dev/xvdf 10GIB 로 잘 연결되어 있다.
 > 
@@ -96,7 +96,7 @@ Type을 provisionend IOPS로 선택하야 이 값을 설정할 수 있다.
 
 ---
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/171626740-f74620c3-404e-41fa-9ac5-45e21dde95df.png)
 
 > SSH로 EC2 인스턴스에 접속한 뒤 
 sudo mkfs -t ext4 /deb/xvdf 를 입력하여 EBS 볼륨을 포맷하였다.
@@ -106,25 +106,25 @@ EBS 볼륨이 ext4 파일시스템으로 포맷 완료되었다.
 
 포맷 완료했으므로, 마운트만 하면 바로 사용할 수 있다.
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/171626744-7ca605f7-5f92-43f2-a671-a3b9159434a9.png)
 
 > 디렉터리(cwgogo)를 생성 후 마운트 진행하였다. 
 df -h 로 마운트된 저장 장치의 목록을 확인 가능하다.
 > 
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/171626746-3e10d677-a9eb-44bb-9e67-5fc7e6222734.png)
 
 > 삭제를 위해  장치를 umount 진행하였다.
 > 
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/171626747-73fa027a-171b-4165-9b56-42868f2c4f85.png)
 
  
 
 > 이후 해당 볼륨의 작업창에서 볼륨을 분리하고 사용 중지,삭제를 진행하면 된다.
 > 
 
-![Untitled](%E1%84%80%E1%85%A1%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20EBS%20b7262302d85a42a5b3daeb9443390b23/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/171626749-aca084e5-4f36-4015-b996-04c0a6e6fc3e.png)
 
 > EC2 인스턴스에서 EBS 볼륨이 완전히 제거되었다.
 > 

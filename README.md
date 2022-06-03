@@ -11,18 +11,12 @@
   - 각 Linux 인스턴스 기본 사용자
 - [Linux 기본 개념](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/4_%20AWS%20%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90.md) 
   - 리전, 가용영역, 엣지 로케이션
-- [추가 기능 설정](https://github.com/khyup0629/aws-study/blob/main/week_1/%EC%9B%B9%EC%84%9C%EB%B2%84_%EB%A7%8C%EB%93%A4%EA%B8%B0.md#ec2-%EC%B6%94%EA%B0%80-%EA%B4%80%EB%A6%AC-%EA%B8%B0%EB%8A%A5) 
-  - 탄력적 IP 할당
-  - 서버 백업(AMI, 스냅샷)
-- [삭제하는 방법](https://github.com/khyup0629/aws-study/blob/main/week_1/%EC%9B%B9%EC%84%9C%EB%B2%84_%EB%A7%8C%EB%93%A4%EA%B8%B0.md#%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0---%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9B%B9%EC%84%9C%EB%B2%84-%EC%B6%94%EA%B0%80-%EA%B4%80%EB%A6%AC-%EA%B8%B0%EB%8A%A5)
-  - 인스턴스, AMI 및 스냅샷, 보안 그룹, 탄력젹 IP, VPC 삭제하기
 
 ## Week 2
 
-- [웹 서버 정적 배포](https://github.com/khyup0629/aws-study/blob/main/week_2/%EC%9B%B9%EC%84%9C%EB%B2%84_%EC%A0%95%EC%A0%81%EB%B0%B0%ED%8F%AC.md#%EC%9B%B9-%EC%84%9C%EB%B2%84-%EC%A0%95%EC%A0%81-%EB%B0%B0%ED%8F%AC)
-	- [프론트엔드 개발](https://github.com/khyup0629/aws-study/tree/main/week_2/KIM-HYEOB-Wep-Page)
-	- Filezilla를 통한 배포
-- [AWS Elastic Beanstalk](https://github.com/khyup0629/aws-study/blob/main/week_2/AWS_Beanstalk.md#aws-beanstalk)
+- [가상 스토리지를 제공하는 EBS](https://github.com/chanwoo9730/aws_study/blob/main/Week%202/5_%20%EA%B0%80%EC%83%81%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EB%A5%BC%20%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94%20EBS.md)
+	
+- [EBS 스냅샷 활용하기](https://github.com/chanwoo9730/aws_study/blob/main/Week%202/6_%20EBS%20%EC%8A%A4%EB%83%85%EC%83%B7%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md)
 	- Beanstalk를 통해 웹 서버 구축 및 샘플 소스 배포
 
 ## Week 3

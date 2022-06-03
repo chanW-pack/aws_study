@@ -41,13 +41,13 @@ EBS 볼륨 목록에서 생성하는 방법과 EBS 스냅샷 목록에서 생성
 
 진행하겠습니다.
 
-![Untitled](EBS%20%E1%84%89%E1%85%B3%E1%84%82%E1%85%A2%E1%86%B8%E1%84%89%E1%85%A3%E1%86%BA%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20174248a3de39474196010621287cd8a7/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/171833977-c6b39c3a-655f-4168-a216-f14437bc071f.png)
 
 > EBS 볼륨 목록에서 8GIB EBS 볼륨을 선택하고 메뉴에 들어간다.
 Create Snashot을 선택한다.
 > 
 
-![Untitled](EBS%20%E1%84%89%E1%85%B3%E1%84%82%E1%85%A2%E1%86%B8%E1%84%89%E1%85%A3%E1%86%BA%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20174248a3de39474196010621287cd8a7/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/171833960-29a4fc8b-418a-4e3e-95a1-f2b1de1119b0.png)
 
 > EBS 스냅샷 생성 세부 설정이다.
 > 
@@ -57,7 +57,7 @@ Create Snashot을 선택한다.
 
 설정이 완료되었으면 Create 버튼을 클릭합니다.
 
-![Untitled](EBS%20%E1%84%89%E1%85%B3%E1%84%82%E1%85%A2%E1%86%B8%E1%84%89%E1%85%A3%E1%86%BA%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20174248a3de39474196010621287cd8a7/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/171833962-3a30a3f6-a455-4613-8c1e-67b867d915a3.png)
 
 > EBS 스냅샷 목록으로 이동하여 생성된 스냅샷을 확인했습니다.
 완전히 생성되는데까지 약간 시간이 걸립니다.
@@ -75,9 +75,9 @@ EBS 볼륨 자체로는 다른 가용 영역(Avilability Zone)으로 이전할 �
 
 EBS 스냅샷을 활용할 수 있습니다.
 
-![Untitled](EBS%20%E1%84%89%E1%85%B3%E1%84%82%E1%85%A2%E1%86%B8%E1%84%89%E1%85%A3%E1%86%BA%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20174248a3de39474196010621287cd8a7/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/171833963-821e9b5c-ca00-4b65-8133-4d3ea538a1cb.png)
 
-![Untitled](EBS%20%E1%84%89%E1%85%B3%E1%84%82%E1%85%A2%E1%86%B8%E1%84%89%E1%85%A3%E1%86%BA%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20174248a3de39474196010621287cd8a7/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/171833965-1063e818-2054-4c6e-bbd9-741ab0dcfc99.png)
 
 > EBS 스냅샷을 선택한 뒤 Create Volume 기능을 선택하여 진행이 가능하다.
 > 
@@ -92,13 +92,13 @@ AMI를 만들 때 이 Kernel ID를 설정하게 되고,
 
 나중에 AMI로 EC2 인스턴스를 생성했을 때 Kernel ID가 맞지 않으면 부팅이 되지 않습니다.
 
-![Untitled](EBS%20%E1%84%89%E1%85%B3%E1%84%82%E1%85%A2%E1%86%B8%E1%84%89%E1%85%A3%E1%86%BA%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20174248a3de39474196010621287cd8a7/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/171833968-857ac5ff-477d-4c21-bcb2-9a99a3a579d6.png)
 
 > EC2 인스턴스의 세부 내용에서 Kernel ID를 확인할 수 있다.
 사진에 따르면 커널 ID가 없다.
 > 
 
-![Untitled](EBS%20%E1%84%89%E1%85%B3%E1%84%82%E1%85%A2%E1%86%B8%E1%84%89%E1%85%A3%E1%86%BA%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20174248a3de39474196010621287cd8a7/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/171833971-c49ca31a-427f-4fe9-91af-3bb24d06fd67.png)
 
 > EBS 스냅샷 목록에서 Create Image 기능을 클릭하면
 EBS 스냅샷으로 AMI 이미지가 생성이 가능하다.
@@ -114,7 +114,7 @@ EBS 볼륨 자체로는 다른 가용 영역으로 이전이 불가능할 뿐만
 
 따라서 EBS 볼륨을 EBS 스냅샷으로 생성한 뒤 다른 리전으로 복사해야 합니다.
 
-![Untitled](EBS%20%E1%84%89%E1%85%B3%E1%84%82%E1%85%A2%E1%86%B8%E1%84%89%E1%85%A3%E1%86%BA%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20174248a3de39474196010621287cd8a7/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/171833972-6467fa65-cfa4-4694-85af-91a62caec42b.png)
 
 > EBS 스냅샷 목록에서 스냅샷을 선택한 뒤 복사를 클릭합니다.
 > 
@@ -124,7 +124,7 @@ EBS 볼륨 자체로는 다른 가용 영역으로 이전이 불가능할 뿐만
 
 설정이 완료되었다면 Copy 버튼을 클릭합니다.
 
-![Untitled](EBS%20%E1%84%89%E1%85%B3%E1%84%82%E1%85%A2%E1%86%B8%E1%84%89%E1%85%A3%E1%86%BA%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20174248a3de39474196010621287cd8a7/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/171833974-4cfd111e-adce-4f74-97da-3a56690a7025.png)
 
 > 원본 리전(시드니) 에서 복사할 리전(싱가포르)로 이동한 뒤 
 EBS 스냅샷 목록으로 이동하여 복사가 진행중인것을 확인했다.

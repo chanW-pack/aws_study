@@ -1,54 +1,30 @@
-# aws_study
+# aws <chanwoo pack .2022>
 # ★ aws-study ★
 
 ## Week 1
 
-- [AWS 가상 머신 시작](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/Linux%20%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%20%EC%8B%9C%EC%9E%91.md)
+- [AWS 가상 머신 시작](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/1_%20Linux%20%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%20%EC%8B%9C%EC%9E%91.md)
   - 리전 설정, 인스턴스 네임/태그 생성, OS 이미지 지정, 인스턴스 유형 설정, 키 페어 생성, 네트워크 설정, 스토리지 구성 등 
-- [Amazon EC2와 Amazon Lightsail의 차이점](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/Amazon%20EC2%EC%99%80%20Amazon%20Lightsail%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md) 
+- [Amazon EC2와 Amazon Lightsail의 차이점](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/2_%20Amazon%20EC2%EC%99%80%20Amazon%20Lightsail%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md) 
   - 성능, 편의성, 확장성, 요금 등 주요 차이점
-- [Amazon Linux 인스턴스에서 사용자 계정 관리](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/3_%20Amazon%20Linux%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%97%90%EC%84%9C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B3%84%EC%A0%95%20%EA%B4%80%EB%A6%AC.md)
+- [Amazon Linux 인스턴스에서 사용자 계정 관리](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/3_%20Amazon%20Linux%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%97%90%EC%84%9C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B3%84%EC%A0%95%20%EA%B4%80%EB%A6%AC.md)
   - 각 Linux 인스턴스 기본 사용자
-- [Linux 기본 개념](https://github.com/chanwoo9730/aws_study/blob/main/Week%201/4_%20AWS%20%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90.md) 
+- [Linux 기본 개념](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/4_%20AWS%20%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90.md) 
   - 리전, 가용영역, 엣지 로케이션
 
 ## Week 2
 
 - [가상 스토리지를 제공하는 EBS](https://github.com/chanwoo9730/aws_study/blob/main/Week%202/5_%20%EA%B0%80%EC%83%81%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EB%A5%BC%20%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94%20EBS.md)
+- EBS 기본 개념, EBS 볼륨 생성 및 장착, EBS 볼륨 포맷, 마운트, 제거
 	
-- [EBS 스냅샷 활용하기](https://github.com/chanwoo9730/aws_study/blob/main/Week%202/6_%20EBS%20%EC%8A%A4%EB%83%85%EC%83%B7%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md)
-	- Beanstalk를 통해 웹 서버 구축 및 샘플 소스 배포
+- [EBS 스냅샷 활용하기](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/6_%20EBS%20%EC%8A%A4%EB%83%85%EC%83%B7%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md)
+	- EBS 스냅샷 생성 및 스냅샷으로 EBS 볼륨/AMI 생성, EBS 스냅샷을 다른 리전으로 복사
 
 ## Week 3
 
-- [2tier 구축](https://github.com/khyup0629/aws-study/blob/main/week_3/2tier_%EA%B5%AC%EC%B6%95.md#2tier-%EA%B5%AC%EC%B6%95)
-	- VPC 마법사를 통한 생성
-	- EC2 인스턴스 생성(Wordpress, Apach, MySQL, PHP 설치)
-	- RDS 생성(서브넷 그룹, 데이터베이스 생성)
-- [로드 밸런싱](https://github.com/khyup0629/aws-study/blob/main/week_3/ELB.md#%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1load-balancing)
-	- 인스턴스 복제
-	- 로드 밸런서 생성(ALB, 서버 대상 등록)
-	- ELB 테스트
-- [Wordpress](https://github.com/khyup0629/aws-study/blob/main/week_3/Wordpress.md#wordpress)
-	- Wordpress 설정(wp-config.php) 및 설치
-	- Wordpress 계정 생성
-	- Wordpress 웹 디자인(테마 설치, 사용자 정의하기)
-- [CloudWatch](https://github.com/khyup0629/aws-study/blob/main/week_3/CloudWatch.md#cloudwatch-%EC%82%AC%EC%9A%A9%EB%B2%95)
-	- RDS 모니터링 대시보드 만들기(여러 지표 위젯, 로그 테이블 위젯)
-
-## Week 4
-
-- [성능 테스트](https://github.com/khyup0629/aws-study/blob/main/week_4/%EC%84%B1%EB%8A%A5_%ED%85%8C%EC%8A%A4%ED%8A%B8.md#%EC%84%B1%EB%8A%A5-%ED%85%8C%EC%8A%A4%ED%8A%B8)
-	- `Jmeter`, Java 설치
-	- 퍼블릭 액세스 허용 `DB 생성`, MySQL 설치(자신의 OS)
-	- Jmeter를 이용한 `성능 테스트
-- [람다 만들기](https://github.com/khyup0629/aws-study/blob/main/week_4/AWS_lambda.md#aws-lambda)
-	- 람다 함수 만들기, 테스트 이벤트
-	- API 게이트웨이 구축(리소스, 메서드, 스테이지, 배포)
-	- POST 방식 테스트
-- [웹서버 아키텍쳐 만들기](https://github.com/khyup0629/aws-study/blob/main/week_4/AWS_Webserver_Architecture.md#aws-%EC%9B%B9%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90)
-	- 주제 : 쇼핑몰
-	- 3tier(WEB-WAS-DB)로 구성
-	- Auto scaling, ELB, Cloudfront, SES, DynamoDB 등 확장성 지원
-	- 고객 맞춤형 서비스 추천 아키텍쳐(SQS, SNS, Glue, Personalize)
-	- 계정간 API 통신, 리전간 복제가 가능한 구조
+- [Security Group으로 방화벽 설정](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/7_%20Security%20Group%EC%9C%BC%EB%A1%9C%20%EB%B0%A9%ED%99%94%EB%B2%BD%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md)
+	- 방화벽 설정의 기본요소
+	- Inbound Outbound 규칙, CIDR 표기법
+	
+- [고정 IP를 제공하는 Elastic IP](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/8_%20%EA%B3%A0%EC%A0%95%20IP%EB%A5%BC%20%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94%20Elastic%20IP.md)
+	- Elastic IP 개념, Elastic IP 할당 및 연결 

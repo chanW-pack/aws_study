@@ -18,7 +18,7 @@ Elatsic IP는 프리 티어에서 사용가능 합니다.
 
 </aside>
 
-![Untitled](%E1%84%80%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%BC%20IP%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20Elastic%20IP%20141a9874b27f4efab2140af0c5e42e1a/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/172585850-0a3c5bac-c4e2-49b6-9711-1813b089870b.png)
 
 > EC2 인스턴스 재부팅 후 공인 IP 변경
 > 
@@ -33,7 +33,7 @@ DNS 서버를 통해 도메인에 IP 주소를 연결해놓았는데 IP 주소�
 
 사용하지 않을 경우 반납 할 수 있습니다.
 
-![Untitled](%E1%84%80%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%BC%20IP%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20Elastic%20IP%20141a9874b27f4efab2140af0c5e42e1a/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/172585858-63bc5842-04c8-4dd7-85bb-17fe36d1afd8.png)
 
 > Elastic IP 사용
 > 
@@ -62,19 +62,19 @@ EC2 인스턴스를 생성한 뒤 SSH로 접속하여 한참 작업을 한 뒤, 
 
 ---
 
-![Untitled](%E1%84%80%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%BC%20IP%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20Elastic%20IP%20141a9874b27f4efab2140af0c5e42e1a/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/172585860-0bcdd900-db2f-4558-b122-b557f6e34759.png)
 
 > AWS EC2 → 네트워크 및 보안 → 탄력적 IP 할당
 > 
 
 할당 버튼을 클릭한다.
 
-![Untitled](%E1%84%80%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%BC%20IP%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20Elastic%20IP%20141a9874b27f4efab2140af0c5e42e1a/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/172585862-7523c7b4-9399-4604-8fef-261410ab393e.png)
 
 > 새 IP 주소 할당 요청을 진행하였다.
 > 
 
-![Untitled](%E1%84%80%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%BC%20IP%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20Elastic%20IP%20141a9874b27f4efab2140af0c5e42e1a/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/172585865-15aa266c-05aa-4b89-aa2a-c7adb64c8b2b.png)
 
 > 이제 Elastic IP 목록에서 새로 할당된 IP 주소를 확인할 수 있다.
 > 
@@ -83,12 +83,12 @@ EC2 인스턴스를 생성한 뒤 SSH로 접속하여 한참 작업을 한 뒤, 
 
 EC2 인스턴스 등 AWS 리소스에 곡 연결해야 Elastic IP를 사용할 수 있다.
 
-![Untitled](%E1%84%80%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%BC%20IP%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20Elastic%20IP%20141a9874b27f4efab2140af0c5e42e1a/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/172585866-5d4e5adf-ff18-40dd-837f-28f33d3fbcce.png)
 
 > 릴리스, 연결, 연결 해제 등이 나타난다. 연결을 진행한다.
 > 
 
-![Untitled](%E1%84%80%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%BC%20IP%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20Elastic%20IP%20141a9874b27f4efab2140af0c5e42e1a/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/172585868-3787127a-4468-4790-a1bb-d3c34481cf42.png)
 
 > Elastic IP 연결
 > 

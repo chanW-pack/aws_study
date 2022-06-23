@@ -21,9 +21,9 @@
 
 ## Week 3
 
-- [Security Group으로 방화벽 설정](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/7_%20Security%20Group%EC%9C%BC%EB%A1%9C%20%EB%B0%A9%ED%99%94%EB%B2%BD%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md)
-	- 방화벽 설정의 기본요소
-	- Inbound Outbound 규칙, CIDR 표기법
+- [Security Group으로 방화벽 설정](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/7_%20Security%20Group%EC%9C%BC%EB%A1%9C%20%EB%B0%A9%ED%99%94%EB%B2%BD%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md) 
+  - 방화벽 설정의 기본요소
+  - Inbound Outbound 규칙, CIDR 표기법
 	
 - [고정 IP를 제공하는 Elastic IP](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/8_%20%EA%B3%A0%EC%A0%95%20IP%EB%A5%BC%20%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94%20Elastic%20IP.md)
 	- Elastic IP 개념, Elastic IP 할당 및 연결 

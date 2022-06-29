@@ -1,4 +1,5 @@
-# aws <chanwoo pack .2022>
+# Amazon Web 
+<chanwoo pack .2022>
 # ★ aws-study ★
 
 ## Week 1

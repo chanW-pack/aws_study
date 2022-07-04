@@ -20,7 +20,7 @@
 
 - [가상 스토리지를 제공하는 EBS](https://github.com/chanwoo9730/aws_study/blob/main/Week%202/5_%20%EA%B0%80%EC%83%81%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EB%A5%BC%20%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94%20EBS.md)
 	- EBS 기본 개념, EBS 볼륨 생성 및 장착, EBS 볼륨 포맷, 마운트, 제거
-- [EBS 스냅샷 활용하기](https://github.com/chanwoo9730/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/6_%20EBS%20%EC%8A%A4%EB%83%85%EC%83%B7%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md)
+- [EBS 스냅샷 활용하기](https://github.com/chanW-pack/aws_study/blob/main/aws%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90/f.%20EBS%20%EC%8A%A4%EB%83%85%EC%83%B7%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md)
 	- EBS 스냅샷 생성 및 스냅샷으로 EBS 볼륨/AMI 생성, EBS 스냅샷을 다른 리전으로 복사
 
 ## Week 3

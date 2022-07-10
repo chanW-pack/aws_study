@@ -42,7 +42,7 @@ S3에 파일을 설치하는 행위는 할 수 없고, 그냥 이미지, 동영�
 - 버전관리 기능을 통해서 사용자에 의한 실수도 복원이 가능하다.
 - 정보의 중요도에 따라서 **보호 수준을 차등** 할 수 있고, 이에 따라서 **비용을 절감** 할 수 있다. (RSS)
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/178140821-27d2a47c-ab58-4cc9-8bf7-3d93c3c0d112.png)
 
 ## AWS S3에서 사용되는 용어
 
@@ -77,12 +77,12 @@ S3에 파일을 설치하는 행위는 할 수 없고, 그냥 이미지, 동영�
 
 ---
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/178140788-0116d444-3cf1-4b6b-bbb3-d0588555621b.png)
 
 > 콘솔에서 S3에 접속 후 버킷 만들기를 선택한다.
 > 
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/178140789-4d481300-0fc3-4be8-bbad-dc519413f0b0.png)
 
 > 일반 구성은 다음과 같이 설정하였다.
 bucket 이름은 cw-s3 test로 설정하였고, 지역은 시드니 리전으로 선택하였다.
@@ -90,7 +90,7 @@ bucket 이름은 cw-s3 test로 설정하였고, 지역은 시드니 리전으로
 
 버킷 이름은 고유값이다.
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/178140790-9e57f361-0b63-4180-8cce-628d49a541af.png)
 
 > 객체 소유권은 다른 AWS 계정에서도 소유권을 갖거나 접속제어 가능유무에 대한
 여부이다.
@@ -98,7 +98,7 @@ bucket 이름은 cw-s3 test로 설정하였고, 지역은 시드니 리전으로
 
 ACL 비활성화를 선택하여 내가 접속한 계정에서만 소유하도록 한다.
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/178140791-7ecabd58-06e4-4f60-909d-701c6aafe1ba.png)
 
 > 퍼블릭 액세스를 차단한다는 것은 외부에서도 파일을 읽게 하지 못한다는 의미다.
 퍼블릭 액세스를 경우에 따라 차단하고 싶다면 
@@ -134,19 +134,19 @@ PUT 요청을 거절한다.
 
 </aside>
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/178140792-64565115-7a04-4fd4-9995-3afc7848b4bf.png)
 
 > 보안상 **기본 암호화** 도 활성화를 하는게 좋지만 기본 생성 후 테스트를 위해 
 비활성화 하였다.
 > 
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/178140794-47680ebe-e542-4120-8aac-1e7c90634bd0.png)
 
 > 시드니 리전으로 버킷이 생성된것을 확인 가능하다.
 (버킷 네임으로 대문자,공백 설정이 불가했다…. 다시만듦…)
 > 
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/178140795-df9f09f1-5b70-41cc-bf08-8064ad1fd268.png)
 
 > 생성한 버킷을 선택하면 여러 태그들이 나타난다.
 객체의 경우 업로드한 파일 리스트를 나타낸다.
@@ -160,12 +160,12 @@ PUT 요청을 거절한다.
 
 bucket을 선택하고 객체 탭에서 폴더 만들기를 선택한다.
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/178140796-a1bc1003-79d3-4139-8994-28cdee70c3cc.png)
 
 > 폴더 이름을 적어주고 폴더 만들기를 진행한다.
 > 
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/178140797-538c27f0-6feb-4cbd-83ce-336d45973985.png)
 
 > 폴더가 생성되었다. 이번에는 사진 업로드를 진행해보겠다.
 > 

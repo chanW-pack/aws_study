@@ -170,25 +170,25 @@ bucket을 선택하고 객체 탭에서 폴더 만들기를 선택한다.
 > 폴더가 생성되었다. 이번에는 사진 업로드를 진행해보겠다.
 > 
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/178140798-3f5a3926-c4ce-454a-9780-81c04b01d8bb.png)
 
 > 아무 사진을 드래그로 올려주었다.
 > 
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/178140799-181a3c54-b150-45f8-b57a-848a959592da.png)
 
 > 그러면 여러 옵션 사항을 줄 수 있는데, 먼저 ACL 액세스 제어 목록에서는
 현재 객체을 읽고 쓰는 권한을 누구에게 줄 것인지 설정할 수 있다.
 개별 ACL 권한 지정으로 AWS 계정 소유자만 읽고 쓰기가 가능하도록 선택했다.
 > 
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/84123877/178140801-f250a0be-bc7d-479c-806e-6264557fa740.png)
 
 > 스토리지 클래스다. 스토리지 클래스는 가격이나 속도, 안정성에 따라
 비용이 달라지게 된다. 현재는 기본값으로 진행하였다.
 > 
 
-![Untitled](AWS%20S3(Simple%20Storage%20Service)%207dee98544fa34b10b2098465cf33441d/Untitled%2013.png)
+![Untitled 13](https://user-images.githubusercontent.com/84123877/178140803-07f777b0-e12c-4554-97a0-7102c34b69c2.png)
 
 > 중요한 폴더 안에 사진이 업로드 된 것을 확인할 수 있다.
 

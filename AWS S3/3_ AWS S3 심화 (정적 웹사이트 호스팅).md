@@ -56,44 +56,44 @@ Route 53가 아니더라도 BIND와 같은 일반적인 DNS 서버에서도 설�
 
 정적 웹사이트 호스팅용 버킷을 새로 만든 뒤 간단한 웹사이트를 만들어보겠다.
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/179191107-766dd800-8f55-4251-bfde-09283a29da43.png)
 
 > S3 버킷 목록에서 위쪽의 Create Bucket 버튼을 선택한다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/179191070-37cb65cc-f687-49cd-a335-ce76eb8e1f94.png)
 
 > 시드니 리전으로 버킷을 생성하였다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/179191072-9963458f-4c0c-4d58-9c22-dfe4f80b5bc7.png)
 
 > 이후 웹사이트이므로 버킷에 올라가는 모든 파일을 인터넷에 공개하도록 권한 설정을
 해주어야 한다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/179191075-9e2c00c1-5761-4a93-a2f5-9074f76737ad.png)
 
 > 메모장으로 간단한 웹 페이지를 작성하였다. (index.html)
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/179191078-c2767a29-4398-4f43-9427-e598ada670f7.png)
 
 > 정적 웹사이트 호스팅 탭을 선택한다. 활성화로 변경하고
 인덱스 페이지의 파일명을 설정하였다. index.html로 지정했다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/179191080-634857c0-e3c0-4da3-9fdc-913caf648636.png)
 
 > index.html을 정적 웹사이트 호스팅을 설정한 버킷에 올린다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/179191083-cc003c97-4de5-47d0-bf85-0bc8238322fc.png)
 
 > 이후 S3 웹사이트 엔드포인트의 링크를 확인할 수 있다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/179191085-2289ddd8-7c86-44aa-acca-45b82af42057.png)
 
 > 웹 브라우저의 새 창에서 방금 만들어서 올린 index.html 파일의 내용이 표시된다.
 > 
@@ -108,4 +108,4 @@ EC2에서 웹 서버를 구축하여 서비스하는 것보다, S3 정적 웹사
 호스팅을 활용하는 것이  효과적입니다.
 
 </aside>
-
+---

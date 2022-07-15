@@ -28,7 +28,7 @@ S3에서는 이 Referer 값을 판단해서 파일을 보여주지 말지 결정
 
 즉, cw-origin123 버킷을 HTTP Referer 설정하고, cws3test-123 버킷에서 그림 파일을 링크해보겠다. 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/179191087-fdf11bef-4907-440d-ac21-afec23be26b4.png)
 
 > S3 버킷 목록에서 이미지파일이 있는 버킷(cw-origin123)을 선택하고 
 버킷 정책 편집을 진행한다.
@@ -45,20 +45,20 @@ S3에서는 이 Referer 값을 판단해서 파일을 보여주지 말지 결정
 
 </aside>
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/179191090-5e2fb25e-2282-4e34-8a86-d3e6e541adc6.png)
 
 > 테스트를 진행하기 전 그림 파일의 권한에서  모든 사용자로 설정된 것이 없는지 확인한다.
 모든 사용자(Everything)으로 권한이 설정되어 있으면
 Referer 설정을 무시하게 되므로 주의해야 한다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/179191092-9262e8d6-e28d-4641-81c9-3bcd189d1ad8.png)
 
 > AccessDenied 에러와 함께 그림 파일이 열리지 않는다.
 링크를 클릭했던 도메인과 버킷 정책에 설정한 Referer 도메인이 맞기 않기 때문이다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/179191098-a461eb42-6e10-46e5-bd74-7f42dfeb7e4c.png)
 
 ```html
 <html>
@@ -76,12 +76,12 @@ Referer 설정을 무시하게 되므로 주의해야 한다.
 > 위와 같이 index123.html 파일을 작성한 뒤 S3 버킷에 올리고, 확인해보겠다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/84123877/179191102-73de1548-d3d7-4ba2-a435-1091cc285ac5.png)
 
 > cws3test-123 버킷의 정적 웹 사이트로 접속한다.
 > 
 
-![Untitled](AWS%20S3%20%E1%84%89%E1%85%B5%E1%86%B7%E1%84%92%E1%85%AA%20(%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC,%20HTTP%20Refer%2036c8887008d3443d916d89bfe0d9874b/Untitled%2013.png)
+![Untitled 13](https://user-images.githubusercontent.com/84123877/179191104-ed09d787-7100-40fb-8639-7d76443a1dd7.png)
 
 > S3 객체의 URL로 접속했을 때 열리지 않던 이미지 파일이 index.html에서는 잘 열린다.
 웹 브라우저로 접속한 도메인

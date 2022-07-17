@@ -1,6 +1,6 @@
 # Amazon Web Service
 <aside>
-😁 [당신이 지금 알아야할 AWS] 도서를 참조해 공부한 내용입니다. 감사합니다.
+😁 [당신이 지금 알아야할 AWS] 도서를 참조해 공부한 내용입니다. 감사합니다..
 </aside>
 
 <chanwoo pack .2022>

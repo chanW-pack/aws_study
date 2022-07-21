@@ -38,4 +38,6 @@
 	- AWS 리소스 상태 모니터링
 	
 ## AWS S3(Simple Storage Service)
-- [AWS S3 란?](https://github.com/chanW-pack/aws_study/blob/main/AWS%20S3/1_%20AWS%20S3(Simple%20Storage%20Service).md)
+- [AWS S3 개념 및 특징, 생성](https://github.com/chanW-pack/aws_study/blob/main/AWS%20S3/1_%20AWS%20S3(Simple%20Storage%20Service).md)
+- [AWS S3 공유 및 권한](https://github.com/chanW-pack/aws_study/blob/main/AWS%20S3/2_%20AWS%20S3%20%EA%B3%B5%EC%9C%A0%20%EB%B0%8F%20%EA%B6%8C%ED%95%9C.md)
+- [AWS S3 정적 웹사이트 호스팅](https://github.com/chanW-pack/aws_study/blob/main/AWS%20S3/3_%20AWS%20S3%20%EC%8B%AC%ED%99%94%20(%EC%A0%95%EC%A0%81%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%20%ED%98%B8%EC%8A%A4%ED%8C%85).md)

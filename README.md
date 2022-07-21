@@ -36,3 +36,6 @@
 	- 생성 및 이용하여 인스턴스 생성, AWS Marketplace, 다른 리전으로 복사.
 - [CloudWatch](https://github.com/chanW-pack/aws_study/blob/main/Week%203/3_5%20CloudWatch%20(AWS%20%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EC%83%81%ED%83%9C%20%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81).md)
 	- AWS 리소스 상태 모니터링
+	
+## AWS S3(Simple Storage Service)
+- [AWS S3 란?](https://github.com/chanW-pack/aws_study/blob/main/AWS%20S3/1_%20AWS%20S3(Simple%20Storage%20Service).md)

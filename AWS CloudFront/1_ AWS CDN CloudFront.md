@@ -12,7 +12,7 @@ CloudFront는 개발자 친화적 환경에서 짧은 지연 시간과 빠른 �
 
 CloudFront는 CDN 서비스와 이외에도 기본 보안 기능(Anti-DDOS)을 제공한다.
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/183291445-6d061980-334d-4d5a-adf3-de5ce1007c95.png)
 
 ## CDN이란?
 
@@ -30,7 +30,7 @@ CloudFront는 CDN 서비스와 이외에도 기본 보안 기능(Anti-DDOS)을 �
 
 </aside>
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/183291422-dbf2c5f7-88d0-4d60-ac97-54541a405f95.png)
 
 > CloudFront 전 세계 여러 곳에 위치한 엣지 서버
 > 
@@ -58,7 +58,7 @@ or 통신 환경이 안좋은 경우 → 요청지점의 CDN을 통해 빠르게
 - 컨텐츠가 **이미 지연 시간이 가장 낮은 엣지 로케이션에 있는 경우 CloudFront가 컨텐츠를 
 즉시 제공**
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/183291424-d3c29eee-03d0-41dc-9244-d5567d7db4ff.png)
 
 ## CloudFront 동작 방식
 
@@ -81,7 +81,7 @@ CloudFront는 AWS 백본 네트워크를 통해 컨텐츠를 가장 효과적으
 
 ---
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/183291425-73d3d167-d341-4bb8-81d6-96b9280d449e.png)
 
 1. 클라이언트로부터 Edge Server로의 요청이 발생한다.
 2. Edge Server는 요청이 발생한 데이터에 대하여 **캐싱 여부를 확인**
@@ -105,7 +105,7 @@ CloudFront는 AWS 백본 네트워크를 통해 컨텐츠를 가장 효과적으
     - 서명된 URL 및 쿠키 사용 옵션으로 자체 사용자 지정 오리진에서 프라이빗
     컨텐츠를 제공하도록 할 수 있음
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/183291426-4adfa907-94ae-46da-aaa4-6a210c868141.png)
 
 > 초록색 바(CloudFront)가 1,2,3,4로 갈수록 요청 시간(ms)가 줄어듬을 볼 수 있다.
 > 
@@ -131,7 +131,7 @@ ex) 로그인, 게시판 등
 TCP Connection, Time to First Byte 등을 CloudFront에서 네트워크를 최적화한다.
 - 실제로 내용을 최적화 해서 보내는 것이 아니라, 통신을 최적화 해서 **속도를 최적화** 시키는 것.
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/183291427-1b9c0476-3918-46de-b8ac-54c1a0b71b30.png)
 
 > 준비단계를 최적화 시켜 Content Download를 빠르게 한다.
 > 
@@ -140,7 +140,7 @@ TCP Connection, Time to First Byte 등을 CloudFront에서 네트워크를 최�
 
 경로 패턴으로 URL에 따라 정적/동적 컨텐츠 분기 처리 한다.
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/183291428-6258b410-f0bf-4dfd-8cf8-50a0ae0d7572.png)
 
 ### HTTPS 지원
 
@@ -150,7 +150,7 @@ Origin에서 HTTPS를 지원하지 않더라도 클라우드 프론트내에서 
 예를 들어, S3 정적 웹 호스팅 URL 같은 경우 SSL 설정이 쉽지 않은데, CloudFront를 통해서
 HTTPS 통신을 지원할 수 있게끔 할 수 있다.
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/183291430-fb1360eb-2416-4de2-b093-44abbcc3f765.png)
 
 ### 지리적 제한 설정
 
@@ -159,7 +159,7 @@ HTTPS 통신을 지원할 수 있게끔 할 수 있다.
 예를 들어 넷플릭스 스트리밍 서비스를 하는데 라이센스나 계약에 따라 일본권에서는 볼 수 있지만
 중국권은 볼 수 없게 설정 가능하다.
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/183291431-565c9f89-c3a2-4388-9d7c-42bc8632e859.png)
 
 ### 다른 서비스와 연계
 
@@ -175,7 +175,7 @@ AWS WAF, Lanbda@Edge 등과 연동 가능
     - CloudFront에서 Origin 도착 이전에 인증 .. 등
     
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/183291434-45c798d8-f4a2-4530-8138-b9f34f6612f0.png)
 
 - 유저에서 CloudFront 도착하기 전,
 - CloudFront에서 Origin에 요청 보내기 전,
@@ -190,9 +190,9 @@ AWS WAF, Lanbda@Edge 등과 연동 가능
 - 아주 간단한 액션에서 사용
 - 사용사례 : 캐싱, 헤더 조작 등
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/183291435-fea29ae3-b1a0-4c9b-aec2-4baa81e314fa.png)
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/183291436-53408c15-8539-4344-9672-a22096d7eab4.png)
 
 ### CloudFront 리포팅
 
@@ -200,9 +200,9 @@ AWS WAF, Lanbda@Edge 등과 연동 가능
 ex) 캐시 상태, 가장 많이 요청 받은 컨텐츠, Top Referer
 - **구글 애널리틱스 같은것이라고 보면 된다.**
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/84123877/183291437-d92497ed-2658-4cd6-a889-f2c8f3dadd97.png)
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%2013.png)
+![Untitled 13](https://user-images.githubusercontent.com/84123877/183291439-eacc36d3-c1ca-47bb-ab84-8e27af6f292f.png)
 
 ### CloudFront 뷰어 정보
 
@@ -232,7 +232,7 @@ CloudFront에서 뷰어의 정보를  헤더에 더해 Origin에 전송한다.
 - **단 하나의 파일** 또는 컨텐츠에 대한 허용만 가능
 - **S3 Signed URL과 비슷한 방식**
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%2014.png)
+![Untitled 14](https://user-images.githubusercontent.com/84123877/183291440-89241b61-7e59-4441-8046-35c9df42e2ef.png)
 
 ### **Signed Cookie**
 
@@ -243,7 +243,7 @@ Signed Cookie는 다수의 컨텐츠의 제공방식을 제어하고 싶을 때 
 - 다수의 파일 및 스트리밍 접근 허용 가능
 - 사용사례 : 정기 구독 프리미엄 유저만 볼 수 있는 강의 동영상 등
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%2015.png)
+![Untitled 15](https://user-images.githubusercontent.com/84123877/183291441-68f8b9d2-f5b2-4f2b-ad18-413db354e0cc.png)
 
 ### Origin Access Identity (OAI)
 
@@ -258,7 +258,7 @@ Signed Cookie는 다수의 컨텐츠의 제공방식을 제어하고 싶을 때 
 S3사이에서 중개하는 역할
 - **S3 Bucket Policy로 CloudFront의 접근을 허용**해야 사용 가능
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%2016.png)
+![Untitled 16](https://user-images.githubusercontent.com/84123877/183291443-948aab4d-b980-4122-9308-624711242bed.png)
 
 ### Field Level Encryption
 
@@ -267,6 +267,6 @@ S3사이에서 중개하는 역할
 - 공개키 방식으로 암호화 → CloudFront에 공개키를 제공 후 Origin에서 
 Private Key 로 해독
 
-![Untitled](AWS%20CDN%20CloudFront%206369e281d759432898b8e3c8fdd12534/Untitled%2017.png)
+![Untitled 17](https://user-images.githubusercontent.com/84123877/183291444-11f7975f-f458-4d60-8fc0-4f4a05930573.png)
 
 ---

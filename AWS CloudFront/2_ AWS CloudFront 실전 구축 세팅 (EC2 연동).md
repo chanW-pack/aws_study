@@ -34,7 +34,7 @@ CloudFront가 지원하는 오리진은 다음과 같다.
 
 ---
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/184263424-d61ff072-a82a-45c0-9eb5-0ffd9c819d4f.png)
 
 > 배포에 앞서 EC2 웹서버를 띄우기 위해 인스턴스를 생성하였다.
 > 
@@ -46,9 +46,9 @@ $ service httpd start # 웹서버 실행
 # 본인은 우분투를 사용하여 httpd 대신 apache2 사용
 ```
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/184263395-d847f841-0a80-4b61-a28d-2b20a57defcb.png)
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/184263402-e4603869-5c26-4ca9-99ab-9558f2b98d5e.png)
 
 > 아파치2 웹서버가 정상적으로 실행되었다.
 > 
@@ -63,7 +63,7 @@ access_log error_log
 $ tail -f access_log
 ```
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/184263404-70d4bf8a-85ac-49e3-83c1-049ad55673d0.png)
 
 > 웹서버를 실행했고, 요청 로그들을 볼 수 있게 세팅했다.
 > 
@@ -83,30 +83,30 @@ $ vi /var/www/apache2/index.html
 </html>
 ```
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/184263405-e72bbcb7-abe4-4738-b629-61d7cc275a21.png)
 
 > html를 생성하고 EC2 DNS 주소로 접속하였다.
 이렇게 EC2 인스턴스로 웹 서버를 생성완료했다.
 이제 이 웹 서버를 CloudFront로 배포하겠다.
 > 
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/184263406-d96fd1f2-7524-4719-aea4-a23718cb8e58.png)
 
 > CloudFront 탭에서 배포 → 배포 생성을 선택한다.
 > 
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/184263407-0f8615f5-1674-4983-9be6-655cce051aa4.png)
 
 > 위에서 생성한 EC2 DNS 주소를 입력한다.
 S3 정적 호스팅 도메인이나 ELB 도메인 역시 사용 가능하다.
 > 
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/184263408-49882e97-b9ca-4a72-8f0f-a4772be5fe25.png)
 
 > 원본 경로같은 경우는 다른 HTML이나 라우팅이 필요할 시 기재한다.
 > 
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/184263410-4a88711e-4c13-455d-842c-f4e15297951d.png)
 
 <aside>
 💡 **뷰어 프로토콜 정책**
@@ -116,7 +116,7 @@ S3 정적 호스팅 도메인이나 ELB 도메인 역시 사용 가능하다.
 
 </aside>
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/184263412-2844e772-3a30-4ce7-a802-678ead1c5870.png)
 
 1. **캐시 정책 (Cache Control)** : 캐싱 방법 및 압축
 
@@ -146,7 +146,7 @@ S3 정적 호스팅 도메인이나 ELB 도메인 역시 사용 가능하다.
 - 어떻게 캐싱을 할지, 어떤 내용을 Origin에 보낼지, 어떤 헤더를 허용할지 등 결정
 ```
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/184263413-546dd77d-ce13-4592-bc4d-90cd3a7198ff.png)
 
 > 이후 설정값은 모두 기본으로 설정하고 배포 생성한다.
 > 
@@ -180,7 +180,7 @@ S3 정적 호스팅 도메인이나 ELB 도메인 역시 사용 가능하다.
 
 </aside>
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/184263414-ad9c8096-aaa5-4fea-bba0-680c8f522ea2.png)
 
 > CloudFront 도메인으로 브라우저에서 접속하면
 EC2 인스턴스 웹서버로 접속하게 된다.

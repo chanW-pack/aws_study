@@ -10,7 +10,7 @@ $ tail -f access_log
 > 로그를 띄우고 이제 EC2 DNS로 접속해보고 CloudFront DNS로 접속하여 비교해보았다.
 > 
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/184263404-70d4bf8a-85ac-49e3-83c1-049ad55673d0.png)
 
 > EC2 DNS로 접속하면 막 로그가 뜨는데, CloudFront DNS로 웹서버에 접속하면
 로그가 쌓이지 않는다.
@@ -24,7 +24,7 @@ $ tail -f access_log
 
 생성했던 Index.html의 삽입이미지를 **수정하여 저장**했다.
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/84123877/184263415-4af13844-b5ba-4fc3-8d2e-872bf15722f4.png)
 
 > ←왼쪽 CloudFront DNS |  오른쪽 EC2 DNS 접속 →
 > 
@@ -46,14 +46,14 @@ CloudFront가 기존의 내용을 이미 캐싱하고 있기 때문에 바로 **
 
 </aside>
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%2013.png)
+![Untitled 13](https://user-images.githubusercontent.com/84123877/184263417-92ec16b7-53dc-4287-8489-d1e1761bc2b2.png)
 
 > CloudFront 배포 모델을 선택하고 무효화를 생성한다.
 > 
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%2014.png)
+![Untitled 14](https://user-images.githubusercontent.com/84123877/184263419-3c5b4bc9-5fba-41c9-afe4-9f21dc474169.png)
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%2015.png)
+![Untitled 15](https://user-images.githubusercontent.com/84123877/184263421-41db3a74-7d6a-4570-8afa-1926bcbe4f3c.png)
 
 > CloudFront 무효화 설정 완료
 > 
@@ -77,6 +77,6 @@ CloudFront는 전세계에서 배포되는 서비스이기 때문에 바로 삭�
 
 이 역시 시간이 오래 걸린다.
 
-![Untitled](AWS%20CloudFront%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20%E1%84%89%E1%85%A6%E1%84%90%E1%85%B5%E1%86%BC%20(EC2%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%20cd658b07f7b24fa7a35a4acd9eed5d79/Untitled%2016.png)
+![Untitled 16](https://user-images.githubusercontent.com/84123877/184263423-bc91b9e1-8818-435d-8509-b4d3f198426f.png)
 
 ---

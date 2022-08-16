@@ -1,4 +1,4 @@
-# AWS CloudFront Signed URL 개념 + URL 구조 파일 구조 파악
+# AWS CloudFront Signed URL 개념 + URL 구조 파악
 
 ---
 

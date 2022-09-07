@@ -52,4 +52,6 @@
 - [AWS CloudFront 개념 및 특징](https://github.com/chanW-pack/aws_study/blob/main/AWS%20CloudFront/1_%20AWS%20CDN%20CloudFront.md)
 - [AWS CloudFront 실전 구축 세팅 (EC2 연동)](https://github.com/chanW-pack/aws_study/blob/main/AWS%20CloudFront/2_%20AWS%20CloudFront%20%EC%8B%A4%EC%A0%84%20%EA%B5%AC%EC%B6%95%20%EC%84%B8%ED%8C%85%20(EC2%20%EC%97%B0%EB%8F%99).md)
 - [AWS CloudFront 캐싱 확인, 무효화 생성, 삭제](https://github.com/chanW-pack/aws_study/blob/main/AWS%20CloudFront/3_%20AWS%20CloudFront%20%EC%BA%90%EC%8B%B1%20%ED%99%95%EC%9D%B8%2C%20%EB%AC%B4%ED%9A%A8%ED%99%94%20%EC%83%9D%EC%84%B1%2C%20%EC%82%AD%EC%A0%9C.md)
+- [AWS CloudFront Signed URL 개념 + URL 구조](https://github.com/chanW-pack/aws_study/blob/main/AWS%20CloudFront/4_%20AWS%20CloudFront%20Signed%20URL%20%EA%B0%9C%EB%85%90%20%2B%20URL%20%EA%B5%AC%EC%A1%B0.md)
+- [AWS CloudFront Signed URL 사용 설정](https://github.com/chanW-pack/aws_study/blob/main/AWS%20CloudFront/5_%20AWS%20CloudFront%20Signed%20URL%20%EC%82%AC%EC%9A%A9%20%EC%84%A4%EC%A0%95.md)
 

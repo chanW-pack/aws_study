@@ -35,7 +35,7 @@ Linux OS에서 텍스트 편집기를 열고 아래와 같이 작성한 뒤 cann
 }
 ```
 
-![Untitled](Canned%20Policy%20Custom%20Policy%20%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20Signed%20UR%20dcd173564ecb482c91fac481293f130c/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/190934694-d30fff07-b2b8-4ccd-8160-892fbed7856b.png)
 
 - **Resource** 
 : 제가 생성한 CloudFront 배포의 도메인은 d38443sd7c5866.cloudfront.net 입니다.. 
@@ -66,7 +66,7 @@ Epoch timestamp에 UTC 형식의 값을 얻을 수 있다.
 ssThan":{"AWS:EpochTime":1654233920}}}]}
 ```
 
-![Untitled](Canned%20Policy%20Custom%20Policy%20%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20Signed%20UR%20dcd173564ecb482c91fac481293f130c/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/190934686-6e7046a4-0fd8-48d5-aee4-50034695fe9c.png)
 
 정책 파일의 공백을 모두 제거하고 한 줄로 만든다.
 공백과 개행문자(새 줄)이 있으면 Signed URL이 동작하지 않는다.
@@ -106,7 +106,7 @@ afRNIF7Qe8nChIEYVaHvyZ~oj4MgZGcAs0GZtBpiQaHsHXLUuIYOSVFffM6bgfIs
 njBH1Pv7VrHuVfIEmxe4Mw__
 ```
 
-![Untitled](Canned%20Policy%20Custom%20Policy%20%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20Signed%20UR%20dcd173564ecb482c91fac481293f130c/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/190934688-72afa1b5-6f15-4ab4-b857-9236ee2ec2d3.png)
 
 - **cat canned_policy.json** 
 : 방금 작성한 canned_policy.json 파일 이다.
@@ -142,7 +142,7 @@ njBH1Pv7VrHuVfIEmxe4Mw__
 
 **EC2가 아닌 S3로 먼저 실습 진행해보겠다.** 
 
-![Untitled](Canned%20Policy%20Custom%20Policy%20%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20Signed%20UR%20dcd173564ecb482c91fac481293f130c/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/190934690-e4f19a15-2e7e-4809-82cd-95097b111a56.png)
 
 > 위 내용과 다르게  JS 파일을 띄어쓰기, 공백 등을 없애지 않고 그대로 저장한다.
 (S3 주소가 아닌 CloudFront 주소에서 html을 추가해주어야 한다.)
@@ -182,7 +182,7 @@ NmRxar6j37NqoT08tYhNebQeZziX-eik3uRVeYGkntnx3QTqIlEfRtmQPYEgQrvIHRknigV8~mh1KVAm
 rmezKt2lUO9AeLX8rw__&Key-Pair-Id=K3R4TUUT9YFJCP
 ```
 
-![Untitled](Canned%20Policy%20Custom%20Policy%20%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20Signed%20UR%20dcd173564ecb482c91fac481293f130c/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/190934691-34973a5d-09e2-4caa-8040-124129a4551c.png)
 
 > 접속 시도 성공했다… 결국 서명의 문제가 맞는듯했다..
 > 

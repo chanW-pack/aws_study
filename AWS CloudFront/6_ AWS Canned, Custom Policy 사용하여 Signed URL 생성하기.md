@@ -187,7 +187,7 @@ rmezKt2lUO9AeLX8rw__&Key-Pair-Id=K3R4TUUT9YFJCP
 > 접속 시도 성공했다… 결국 서명의 문제가 맞는듯했다..
 > 
 
-또, URL에 http <s> 를 빼고, index.html/? 에서 /를 제거하고 진행해야한다.
+또, URL에 http 's' 를 빼고, index.html/? 에서 /를 제거하고 진행해야한다.
 
 <aside>
 💡 **CloudFront Signed URL과 Restrict Bucket Access**

@@ -208,7 +208,9 @@ CloudFront로 배포되는 파일의 캐시가 유지되는 기본 시간은 24�
 오리진 HTTP 헤더의 캐시 설정을 이용하여 캐시가 유지되는 시간을 자유롭게 설정할 수 있다.
 
 지난 페이지에서 무효화 요청을 진행했었기 때문에 넘어가겠다.
-([https://www.notion.so/AWS-CloudFront-EC2-9fd58851aff646f680640faec679ee97](https://www.notion.so/AWS-CloudFront-EC2-9fd58851aff646f680640faec679ee97))
+</br>
+ - [AWS CloudFront 실전 구축 세팅 (EC2와 연동하기)
+](https://github.com/chanW-pack/aws_study/blob/main/AWS%20CloudFront/2_%20AWS%20CloudFront%20%EC%8B%A4%EC%A0%84%20%EA%B5%AC%EC%B6%95%20%EC%84%B8%ED%8C%85%20(EC2%20%EC%97%B0%EB%8F%99).md)
 
 <aside>
 💡 **무효화 요청 없이 빠르게 파일 갱신하기**

@@ -38,12 +38,13 @@ Linux OS에서 텍스트 편집기를 열고 아래와 같이 작성한 뒤 cann
 ![Untitled](https://user-images.githubusercontent.com/84123877/190934694-d30fff07-b2b8-4ccd-8160-892fbed7856b.png)
 
 - **Resource** 
-: 제가 생성한 CloudFront 배포의 도메인은 d38443sd7c5866.cloudfront.net 입니다.. 
-여기서 도메인은 여러분들이 생성한 CloudFront 배포의 도메인을 입력해야 합니다. 
-(본인 주소로 그대로 하면 안돼~)
-https://d3g6t0mzbstk6q.cloudfront.net 과 같이 http://를 포함한 CloudFront 배포 도메인과 파일의 경로를 포함한 파일명을 입력합니다.
+: 내가 생성한 CloudFront 배포의 도메인은 d38443sd7c5866.cloudfront.net 이다.
+여기서 도메인은 생성한 CloudFront 배포의 도메인을 입력해야 한다. </br>
+(내 주소로 그대로 하면 안돼용~)
+https://d3g6t0mzbstk6q.cloudfront.net 과 같이 http://를 포함한 CloudFront 배포 도메인과 파일의 경로를 포함한 파일명을 입력한다.
 - **DateLessThan → AWS:EpochTime** 
-: Signed URL에서는 이 만료날짜 값이 필수입니다. 그리고 UTC 형식을 사용해야 합니다. 위의 정책 파일에서 1654233920 값은 이미 지나가버린 시간 값이므로 그대로 사용하면 Signed URL이 동작하지 않습니다. 꼭 미래의 시간 값을 사용하기 바랍니다.
+: Signed URL에서는 이 만료날짜 값이 필수다. 그리고 UTC 형식을 사용해야 한다. </br>
+위의 정책 파일에서 1654233920 값은 이미 지나가버린 시간 값이므로 그대로 사용하면 Signed URL이 동작하지 않으므로 주의. 꼭 미래의 시간 값을 사용하기를 바란다.
 (1654233920 값은 2022/06/03 14:25 값임…)
 
 <aside>
@@ -56,8 +57,8 @@ http://www.epochconverter.com에 접속한다.
 ![https://pyrasis.com/assets/images/TheArtOfAmazonWebServicesChapter12/52_.png](https://pyrasis.com/assets/images/TheArtOfAmazonWebServicesChapter12/52_.png)
 
 원하는 날짜와 시간을 입력한 뒤 Human date to Timestamp 버튼을 클릭하면 
-Epoch timestamp에 UTC 형식의 값을 얻을 수 있다. 
-이 사이트 이외에도 구글에서 utc converter라고 검색하면 같은 기능을 가진 비슷한 사이트가 많이 있습니다.
+Epoch timestamp에 UTC 형식의 값을 얻을 수 있다. </
+이 사이트 이외에도 구글에서 utc converter라고 검색하면 같은 기능을 가진 비슷한 사이트가 많이 있으므로 참고
 
 </aside>
 
@@ -120,10 +121,10 @@ njBH1Pv7VrHuVfIEmxe4Mw__
 
 **이후 메모장이나 기타 텍스트 편집기에서 아래와 같이 Signed URL을 직접 생성한다.**
 
-- http://d38443sd7c5866.cloudfront.net/index.html: 접속할 CloudFront 도메인과 파일명입니다. 이 도메인은 여러분들이 생성한 CloudFront 배포 도메인을 입력합니다.
-- Expires: Signed URL이 만료되는 날짜와 시간 값 입니다. 여러분이 canned_policy.json에 지정한 DateLessThan → AWS:EpochTime 값과 동일해야 합니다.
+- http://d38443sd7c5866.cloudfront.net/index.html: 접속할 CloudFront 도메인과 파일명이다. 이 도메인은 생성한 CloudFront 배포 도메인을 입력한다.
+- Expires: Signed URL이 만료되는 날짜와 시간 값. canned_policy.json에 지정한 DateLessThan → AWS:EpochTime 값과 동일해야 한다.
 - Signature: 생성한 서명 값을 이곳에 붙입니다. 생성할 때는 여러 줄로 출력이 되지만 URL로 사용할 때는 한 줄로 만들어서 붙여야 합니다.
-- Key-Pair-Id: CloudFront 액세스 키 값 입니다. 여러분들이 생성한 액세스 키 값을 입력합니다.
+- Key-Pair-Id: CloudFront 액세스 키 값. 생성한 액세스 키 값을 입력한다.
 (AWS 액세스키 값이 아니다. CloudFront 액세스 키 ID 값이다.)
 
 ---

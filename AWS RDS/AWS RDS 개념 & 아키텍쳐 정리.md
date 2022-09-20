@@ -477,5 +477,28 @@ Read Replica의 경우 쓰기 작업을 실시하면 약간의 시간차를 가�
     - **DR(disaster recovery)시나리오** : 만약 서울에 폭탄이 터져서 리전이 fail이 된다면 다른리전을 마스터로 만드는 구성
 - 각 리전별로 자동 백업 가능
 - 리전별로 Multi-AZ 가능
+    
+![Untitled 1](https://user-images.githubusercontent.com/84123877/191171474-58e70acd-18ff-4d17-bd24-2f74901bd779.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/191171477-1ddd6d5b-17f0-4027-92c6-a346dd079c91.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/191171478-563e3d76-e601-4494-96f4-b889bc0e1de3.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/191171480-772a0b33-cec9-40b5-8726-d35178f129e1.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/191171481-c8e3b8b2-8bd4-43ba-9ca2-2333f75adb27.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/191171482-61a794fe-85f0-464f-aa23-946bca069d0e.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/191171483-0013ad3a-a0a3-4a08-9e58-ee71a5558b2e.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/191171485-e2d36f7a-284d-4077-b92b-d38f331a8d09.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/191171487-34880f18-f432-4711-b3dc-7c84c2117682.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/191171488-5a605d81-a059-4800-9ce3-58dfa15b8d3d.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/191171489-8241b45a-9e3e-4e99-bcaf-17a988483e68.png)
+![Untitled 12](https://user-images.githubusercontent.com/84123877/191171492-cbb99f9f-15ed-4579-a18f-8c4499721fb2.png)
+![Untitled 13](https://user-images.githubusercontent.com/84123877/191171494-feb4d6c1-0681-4218-a126-0bbff9ac8356.png)
+![Untitled 14](https://user-images.githubusercontent.com/84123877/191171497-d64e81c4-1e4f-42b5-9de2-39743f2dd908.png)
+![Untitled 15](https://user-images.githubusercontent.com/84123877/191171500-3e6c826c-b0d2-4408-8ec8-9aa7391988da.png)
+![Untitled 16](https://user-images.githubusercontent.com/84123877/191171501-985137b9-8f0d-4043-be9d-e18c15136a62.png)
+![Untitled 17](https://user-images.githubusercontent.com/84123877/191171503-0ef7e4eb-e326-4224-a807-8a33bfe674a7.png)
+![Untitled 18](https://user-images.githubusercontent.com/84123877/191171504-9226819d-b76b-4206-a5b0-d25a0d1a78d3.png)
+![Untitled 19](https://user-images.githubusercontent.com/84123877/191171506-0209163f-f753-4452-a51a-07b8c2f612f7.png)
+![Untitled 20](https://user-images.githubusercontent.com/84123877/191171508-4c1a497a-ee74-4856-975b-a14a9a6474e9.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/191171510-e5974089-d027-45bf-9703-080616c70ee3.png)
+
 
 ---

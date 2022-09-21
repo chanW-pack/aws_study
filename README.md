@@ -57,3 +57,6 @@
 - [AWS Canned, Custom Policy 사용하여 Signed URL 생성](https://github.com/chanW-pack/aws_study/blob/main/AWS%20CloudFront/6_%20AWS%20Canned%2C%20Custom%20Policy%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20Signed%20URL%20%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0.md)
 
 ## AWS RDS (Relational Database Service)
+- [AWS RDS 개념 및 특징](https://github.com/chanW-pack/aws_study/blob/main/AWS%20RDS/AWS%20RDS%20%EA%B0%9C%EB%85%90.md)
+- [AWS RDS 구성 인프라 아키텍쳐](https://github.com/chanW-pack/aws_study/blob/main/AWS%20RDS/AWS%20RDS%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.md)
+

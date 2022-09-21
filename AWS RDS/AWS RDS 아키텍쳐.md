@@ -12,13 +12,13 @@
 AWS RDS는 데이터베이스를 보다 효율적으로 관리할 수 있게 하는 
 인프라 아키텍쳐 방법 3가지를 제공한다.
 
-![Untitled](AWS%20RDS%20%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20&%20%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20264ea5fde0774c9c850f8ce6509e688c/Untitled%2014.png)
+![Untitled 14](https://user-images.githubusercontent.com/84123877/191171497-d64e81c4-1e4f-42b5-9de2-39743f2dd908.png)
 
 ## RDS Multi AZ 구조
 
 ---
 
-![Untitled](AWS%20RDS%20%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20&%20%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20264ea5fde0774c9c850f8ce6509e688c/Untitled%2015.png)
+![Untitled 15](https://user-images.githubusercontent.com/84123877/191171500-3e6c826c-b0d2-4408-8ec8-9aa7391988da.png)
 
 > RDS 멀티 AZ는 위 사진처럼 **두 개 이상의 AZ에 걸쳐 데이터베이스를 구축**하고
 원본과 다른 **DB(Standby)**를 자동으로 동기화(Sync)하는 구조이다.
@@ -48,11 +48,11 @@ Multi AZ는 AWS에 의해서 자동으로 관리가 이루어 진다.
 
 장애 복구용 백업 인스턴스이기 때문에 Standby DB는 숨겨져 있기 때문이다.
 
-![Untitled](AWS%20RDS%20%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20&%20%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20264ea5fde0774c9c850f8ce6509e688c/Untitled%2016.png)
+![Untitled 16](https://user-images.githubusercontent.com/84123877/191171501-985137b9-8f0d-4043-be9d-e18c15136a62.png)
 
 그러다 만약 **RDS Primary에 장애가 발생하면**, 다음과 같이 장애 복구가 이루어진다.
 
-![Untitled](AWS%20RDS%20%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20&%20%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20264ea5fde0774c9c850f8ce6509e688c/Untitled%2017.png)
+![Untitled 17](https://user-images.githubusercontent.com/84123877/191171503-0ef7e4eb-e326-4224-a807-8a33bfe674a7.png)
 
 1. RDS Primary에 문제가 생기면, 자동으로 DNS를 Standby 인스턴스로 연동을 해준다.
 2. 그리고 기존에 RDS Primary와의 연결을 끊어준다.
@@ -76,7 +76,7 @@ Multi AZ는 AWS에 의해서 자동으로 관리가 이루어 진다.
 
 ---
 
-![Untitled](AWS%20RDS%20%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20&%20%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20264ea5fde0774c9c850f8ce6509e688c/Untitled%2018.png)
+![Untitled 18](https://user-images.githubusercontent.com/84123877/191171504-9226819d-b76b-4206-a5b0-d25a0d1a78d3.png)
 
 > Read Replica(읽기 전용 복제본)은 위 그림처럼 **RDS Primary를 복제**해서
 **DB쓰기는 RDS Primary에서 처리**하고, **DB 읽기는 복제한 복제본에서 처리**하는 구조이다.
@@ -111,7 +111,7 @@ Replication이란 백업과 성능 향샹을 위해서 데이터베이스를 여
 원본 데이터가 위치하는 서버를 **마스터**라고 하고, 
 그 원본을 복제한 서버를 **슬레이브** 라고 칭한다.
 
-![Untitled](AWS%20RDS%20%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20&%20%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20264ea5fde0774c9c850f8ce6509e688c/Untitled%2019.png)
+![Untitled 19](https://user-images.githubusercontent.com/84123877/191171506-0209163f-f753-4452-a51a-07b8c2f612f7.png)
 
 > 위와 같이 Delete, Update, Insert 작업이 실행될 땐 RDS DB Instance로 요청이 들어가고,
 Select 작업을 수행해야 한다면 Read Replica에 요청이 들어가게 되는 것이다.
@@ -165,7 +165,7 @@ Read Replica의 경우 쓰기 작업을 실시하면 약간의 시간차를 가�
 
 ---
 
-![Untitled](AWS%20RDS%20%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20&%20%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20264ea5fde0774c9c850f8ce6509e688c/Untitled%2020.png)
+![Untitled 20](https://user-images.githubusercontent.com/84123877/191171508-4c1a497a-ee74-4856-975b-a14a9a6474e9.png)
 
 - **다른 리전**에 지속적으로 동기화 시키는 DB 클러스터 생성 (Async 복제)
 - 예를 들어 유럽 국가에 서비스를 한다고 가정하자.서울에 마스터 리전을 두고 유럽에 Read Replica를 둔다면 유럽 현지에서는 Read Replica로 읽기 때문에 latency(지연시간)가 줄어든다.우리나라에서는 읽기 전용 복제본에 데이터 복제만 해주면 된다.

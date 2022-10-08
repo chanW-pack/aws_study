@@ -12,15 +12,15 @@
 
 ---
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/194469601-945bebfa-54c0-4c7b-963d-900352343525.png)
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/194469546-0cef19ef-e84b-4634-b091-f211d223326f.png)
 
 > 데이터베이스탭으로 이동하여 생성을 선택한다.
 본인은 MySQL로 생성하겠다.
 > 
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/194469552-d752a80e-c34b-421f-9a13-d7ed6c4fa029.png)
 
 > 탬플릿을 선택한다. **프로덕션은 멀티 AZ를 지원**하고, **나머지는 싱글 RDS 인스턴스**이다.
 > 
@@ -29,7 +29,7 @@
 
 본인은 멀티 AZ를 구축할 예정이기에, 프로덕션을 선택했다.
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/194469553-0d6ee2c7-433f-429c-ab99-0ea762d14378.png)
 
 > DB 인스턴스에 대해 고유한 이름을 지정 및 마스터 사용자 이름을 설정한다.
 > 
@@ -37,14 +37,14 @@
 마스터 사용자의 아이디/비밀번호를 작성할 수 있다.
 이는 나중에 CLI나 GUL Tool로 접속 할때 사용된다.
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/194469555-0ae01060-c6eb-4bda-9fe1-2a7fd31dfc64.png)
 
 > 인스턴스 클래스를 선택한다. 표준, 메모리 최적화, 버스트 성능의 3종류가 있다.
 > 
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/194469557-dcba08cb-7969-44fe-a24d-948f2508c3bf.png)
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/194469559-f0b25635-9d26-4b93-adab-f9abf776381f.png)
 
 > RDS 인스턴스의 EBS를 선택한다.
 > 
@@ -66,13 +66,13 @@ RDS 인스턴스도 일종의 EC2이기 때문에 EBS 스토리지가 필요하�
 
 </aside>
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/194469560-8ba736ba-dac7-49c4-8518-abf3f535c513.png)
 
 > 구축 연습이므로 가장 저렴한 마그네틱을 선택했다.
 (프리티어의 스토리지 최대 할당량은 20GB이다.)
 > 
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/194469561-522aad64-adec-4c8a-9554-c46572fd4ce2.png)
 
 > 멀티 AZ 예비 인스턴스 생성 선택
 > 
@@ -80,7 +80,7 @@ RDS 인스턴스도 일종의 EC2이기 때문에 EBS 스토리지가 필요하�
 다중 AZ 배포를 선정하면, DB 인스턴스에 고가용성과 장애 조치 기능을 
 지원하게 설정 가능하다.
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/194469565-a915350f-ddac-4a8b-8789-d567df101715.png)
 
 > VPC 전반 설정을 진행한다.
 > 
@@ -101,7 +101,7 @@ EC2 인스턴스와 연동할 경우 동일한 곳에 설치하는 것이 일반
 - 포트
 : MySQL 기본 포트인 3306을 사용한다.
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/194469567-a17b24b8-05b5-4eae-af26-ff4349bf7252.png)
 
 > 데이터베이스 암호화 형식을 설정한다.
 > 
@@ -110,7 +110,7 @@ RDS 암호화 인증 방식 3가지중 고를 수 있다.
 
 가장 무난한 아이디/패스워드 식 암호 인증을 선택했다.
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/194469568-6a27d9f5-f324-4d3f-b192-08ded4caca37.png)
 
 > 추가 구성을 설정한다.
 > 
@@ -122,7 +122,7 @@ RDS 암호화 인증 방식 3가지중 고를 수 있다.
 그 외 백업 같은 나머지는 디폴트로 두고 넘어갔다. 
 (나중에 수정 가능)
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/84123877/194469572-0ece1708-e13c-49b7-9ede-48dee420a31f.png)
 
 > RDS 요금을 미리 확인할 수 있다.
 > 

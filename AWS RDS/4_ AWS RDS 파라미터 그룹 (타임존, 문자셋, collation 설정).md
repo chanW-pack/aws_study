@@ -3,17 +3,17 @@
 ---
 
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2013.png)
+![Untitled 13](https://user-images.githubusercontent.com/84123877/194469573-2e001647-4134-4e72-b29d-5ad370a4a526.png)
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2014.png)
+![Untitled 14](https://user-images.githubusercontent.com/84123877/194469574-f1bb2e0d-01f1-466a-98ba-a1a53b562e43.png)
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2015.png)
+![Untitled 15](https://user-images.githubusercontent.com/84123877/194469575-fb6f3033-8f42-41a9-bee0-f64c522d9b75.png)
 
 > RDS 생성 중 마스터 패스워드를 지정해주었다.
 마스터 사용자 이름과 마스터 암호를 이용해서 데이터베이스에 접속할 수 있게 되었다.
 > 
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2016.png)
+![Untitled 16](https://user-images.githubusercontent.com/84123877/194469576-8f8bd11d-f530-4eb7-87ab-6d4f97073c78.png)
 
 > 파라미터 그룹을 생성한다. (파리미터 그룹 → 파라미터 그룹 생성 선택)
 > 
@@ -24,7 +24,7 @@ RDS 인스턴스를 생성하면서 기본으로 생성된 **디폴트 파라미
 
 [파라미터 그룹 생성] 버튼을 누른다.
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2017.png)
+![Untitled 17](https://user-images.githubusercontent.com/84123877/194469578-d6a46646-2e26-4412-b5ed-e19f05762228.png)
 
 > 파라미터 그룹을 생성한다.
 > 
@@ -33,13 +33,13 @@ RDS 인스턴스를 생성하면서 기본으로 생성된 **디폴트 파라미
 
 이후 그룹 이름과 설명을 작성한다.
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2018.png)
+![Untitled 18](https://user-images.githubusercontent.com/84123877/194469580-73cbe2c6-17e2-40f5-bbd7-f5999e8593a5.png)
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2019.png)
+![Untitled 19](https://user-images.githubusercontent.com/84123877/194469581-5691897b-5c82-4252-af52-43924d4dd30a.png)
 
 ### 데이터베이스 타임존 설정
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2020.png)
+![Untitled 20](https://user-images.githubusercontent.com/84123877/194469584-7d1b8f20-79bb-4f36-8126-2f7be9a93dc8.png)
 
 > **데이터베이스 타임존**을 설정했다.
 > 
@@ -50,7 +50,7 @@ Asia/Seoul로 변경해준다.
 
 ### 데이터베이스 문자셋 설정
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2021.png)
+![Untitled 21](https://user-images.githubusercontent.com/84123877/194469586-b2bf82fd-51dd-430b-beed-a8d72c4487cd.png)
 
 > 데이터베이스 문자셋도 설정한다.
 > 
@@ -76,7 +76,7 @@ utf8은 가변 3바이트를 사용하는데 반해서, utf8mb4는 내부적으�
 
 ### collation 변경
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2022.png)
+![Untitled 22](https://user-images.githubusercontent.com/84123877/194469589-b12fa0b4-070d-4f51-871b-aadec1bc4a46.png)
 
 ![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2023.png)
 

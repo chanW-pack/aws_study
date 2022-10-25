@@ -78,7 +78,7 @@ utf8은 가변 3바이트를 사용하는데 반해서, utf8mb4는 내부적으�
 
 ![Untitled 22](https://user-images.githubusercontent.com/84123877/194469589-b12fa0b4-070d-4f51-871b-aadec1bc4a46.png)
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2023.png)
+![Untitled 23](https://user-images.githubusercontent.com/84123877/194469591-1a0adf43-52b1-4828-92d8-9f2dc0100d3e.png)
 
 > 이번에는 collation을 검색해서 모두 ufw8mb4_general_ci 로 변경한다.
 > 
@@ -90,14 +90,14 @@ utf8은 가변 3바이트를 사용하는데 반해서, utf8mb4는 내부적으�
 
 ### RDS 인스턴스에 파라미터 그룹 변경하기
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2024.png)
+![Untitled 24](https://user-images.githubusercontent.com/84123877/194469592-95ae7e29-2dd3-4809-820c-cb78c0393b25.png)
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2025.png)
+![Untitled 25](https://user-images.githubusercontent.com/84123877/194469595-91aa3eb4-e80e-4746-8059-2b26e63980eb.png)
 
 > 추가 구성 화면에서 DB 파라미터 그룹을 방금 생성한 파라미터 그룹으로 변경한다.
-> 
 
-![Untitled](AWS%20RDS%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2005e8e24b943a4a80a5c9d13d1fdf1853/Untitled%2026.png)
+
+![Untitled 26](https://user-images.githubusercontent.com/84123877/194469600-0fd019e3-0330-43c7-b991-0a68d503048a.png)
 
 > 설정 변경 즉시 적용한다.
 > 

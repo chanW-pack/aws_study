@@ -61,4 +61,5 @@
 - [AWS RDS 구성 인프라 아키텍쳐](https://github.com/chanW-pack/aws_study/blob/main/AWS%20RDS/2_%20AWS%20RDS%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.md)
 - [AWS RDS 생성](https://github.com/chanW-pack/aws_study/blob/main/AWS%20RDS/3_%20AWS%20RDS%20%EC%83%9D%EC%84%B1.md)
 - [AWS RDS 파라미터 그룹 (타임존, 문자셋, collation 설정)](https://github.com/chanW-pack/aws_study/blob/main/AWS%20RDS/4_%20AWS%20RDS%20%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%20%EA%B7%B8%EB%A3%B9%20(%ED%83%80%EC%9E%84%EC%A1%B4%2C%20%EB%AC%B8%EC%9E%90%EC%85%8B%2C%20collation%20%EC%84%A4%EC%A0%95).md)
+- [AWS RDS ]
 

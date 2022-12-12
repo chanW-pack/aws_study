@@ -10,7 +10,7 @@
 
 ### 클라우드 서비스 모델
 
-![Untitled](AWS%20%E1%84%91%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%A8%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%20afe09684dc474f849fee8baa75e5ace0/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/207052574-ddd9ad13-398f-46bb-9bc0-f25f9f86e778.png)
 
 ---
 
@@ -96,13 +96,13 @@
 
 ### 5. m4.large 기준 가격 비교표
 
-![Untitled](AWS%20%E1%84%91%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%A8%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%20afe09684dc474f849fee8baa75e5ace0/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/207052568-0cf77e48-0178-48f6-b7d0-c6dd50b5ce51.png)
 
 ---
 
 ### EC2 인스턴스 시작
 
-![Untitled](AWS%20%E1%84%91%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%A8%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%20afe09684dc474f849fee8baa75e5ace0/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/207052571-38b56dd3-9332-49dc-9e64-f497134436e3.png)
 
  ec2 생성 시, 사용자 데이터 부분에서 서버 실행시 명령 또는 명령 스크립트를 지정할 수 있다.
 
